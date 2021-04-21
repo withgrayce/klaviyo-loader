@@ -1,7 +1,7 @@
 {
   "name": "klaviyo-loader",
   "description": "Async loader for the klaviyo api (browser, typescript)",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Aubrey Holland <aubrey@withgrayce.com>",
   "keywords": [
     "klaviyo",
