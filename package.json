@@ -21,7 +21,7 @@
   "module": "./lib/esm/index.js",
   "sideEffects": false,
   "devDependencies": {
-    "@types/node": "^14.0.14",
+    "@types/node": "^18.0.0",
     "typescript": "^3.9.5"
   },
   "scripts": {
