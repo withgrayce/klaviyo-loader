@@ -9,7 +9,7 @@ export class Loader
 
 	constructor(private companyId: string = null) {
 		if (typeof window === 'undefined') {
-			throw new Error('klaviyo is supported only in browser environment');
+			throw new Error('klaviyo is supported only in browser environments');
 		}
 	}
 
@@ -34,7 +34,7 @@ export class Loader
       var script = document.createElement('script');
       script.type = 'text/javascript';
       script.async = !0;
-      script.src = `//static.klaviyo.com/onsite/js/klaviyo.js?company_id=${this.companyId}`
+      script.src = `https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=${this.companyId}`
       script.onload = () => {
         resolve(window['_learnq'] as unknown as Klaviyo);
       };
